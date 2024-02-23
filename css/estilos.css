@@ -26,3 +26,45 @@ body {
 h1, h2, h3, h4, h5 {
     font-family: 'Marcellus', serif;
 }
+
+/* Estilo del menú de navegación */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+/* Estilo de los elementos del menú */
+.item {
+    padding: 1rem;
+}
+
+/* Estilo de los enlaces del menú */
+.menu a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+/* Estilo del botón en la barra de navegación */
+.navbar-button {
+    background-color: var(--azuloscuro);
+    padding: 0.5rem 1rem;
+    color: var(--blanco);
+    border-radius: 5px;
+    font-family: 'Marcellus', serif;
+    font-size: 1em;
+}
+
+/* Estilo del icono en el menú */
+.menu i {
+    margin-right: 0.5rem;
+}
+
+/* Estilo del logo en la barra de navegación */
+.logo img {
+    height: 3rem;
+}
